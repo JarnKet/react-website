@@ -1,0 +1,50 @@
+/* Market Item App */
+
+.market-app-form {
+  border: 1px solid red;
+  padding: 20px;
+
+  width: 300px;
+
+  display: flex;
+  gap: 20px;
+}
+
+/* Preview Data App */
+
+.preview-input {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  border-radius: 0px;
+}
+
+/* Main Header */
+.main-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      font-weight: bold;
+      text-decoration: underline;
+      color: red;
+    }
+  }
+
+  .is-active {
+    font-weight: bold;
+
+    color: blue;
+  }
+}
+
+.post-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
